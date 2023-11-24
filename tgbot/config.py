@@ -48,3 +48,5 @@ def load_config(path: str = None):
         ),
         misc=Miscellaneous()
     )
+
+SQLALCHEMY_URL = "sqlite+aiosqlite:///db.sqlite3"
